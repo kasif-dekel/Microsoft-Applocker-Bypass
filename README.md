@@ -4,7 +4,7 @@ A new technique to bypass microsoft's applocker.
 # What is AppLocker:
 AppLocker is a new feature in Windows 7 and Windows Server 2008 R2 that allows you to specify which users or groups can run particular applications in your organization based on unique identities of files. If you use AppLocker, you can create rules to allow or deny applications from running.
 
-# Finding:
+# The Finding:
 When AppLocker is configured to work in whitelist mode (e.g: only specified programs are allowed to run) it is possible to bypass to protection of 'AppLocker'.
 If, for example only [mspaint.exe, notepad.exe, calc.exe] are signed and allowed to run - it is still possible to run other programs and even run code that uses the WindowsAPI.
 The vulnerability occurs since it is not possible to block the EXE file 'rundll32.exe' since its required by windows to perform important tasks.
