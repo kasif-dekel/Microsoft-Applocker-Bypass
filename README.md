@@ -18,3 +18,6 @@ rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";alert(1);
 
 Once you run this, an internet-explorer window will show up with the alert message (1). 
 If the machine isnt a kiosk machine, and you can copy a special DLL into the machine - its even better =] But as you already understand by now, you can use this to run vbscripts to perform more advanced operations.
+
+# Microsft's Response
+![alt tag](http://oi57.tinypic.com/2ns1543.jpg)
